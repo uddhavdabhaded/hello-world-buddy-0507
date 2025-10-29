@@ -11,13 +11,13 @@ const Index = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1 space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold text-foreground">
-              Hi, I'm <span className="text-primary">Your Name</span>
+              Hi, I'm <span className="text-primary">Uddhav Dabhade</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground">
-              Full Stack Developer & Technical Expert
+              Flutter Developer & Full Stack Developer
             </p>
             <p className="text-lg text-muted-foreground">
-              Passionate about creating innovative solutions and building amazing web applications.
+              Detail-oriented Full Stack Developer with 2+ years of experience in building scalable web and mobile applications. Proficient in Flutter for mobile and Node.js for backend, passionate about problem-solving and delivering high-quality solutions.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/projects">

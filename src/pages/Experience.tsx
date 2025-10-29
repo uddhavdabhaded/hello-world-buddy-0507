@@ -5,36 +5,29 @@ import { Briefcase, Calendar } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Company Inc.",
-      period: "2021 - Present",
+      title: "Flutter Developer",
+      company: "BAAP Company",
+      period: "August 2025 - Present",
       description: [
-        "Led development of scalable web applications serving 100K+ users",
-        "Mentored junior developers and conducted code reviews",
-        "Implemented CI/CD pipelines reducing deployment time by 60%",
-        "Architected microservices infrastructure using Docker and Kubernetes",
+        "Contributing to 2 client projects and 4 internal projects with hands-on module and end-to-end development",
+        "Building scalable mobile applications using Flutter with focus on clean, maintainable code",
+        "Implementing RESTful API integrations and state management solutions (GetX/Bloc)",
+        "Collaborating with cross-functional teams using Agile methodologies",
+        "Developing both Android and iOS applications with seamless user experiences",
+        "Working on authentication systems, real-time data synchronization, and push notifications",
       ],
     },
     {
       title: "Full Stack Developer",
-      company: "Digital Solutions Ltd.",
-      period: "2019 - 2021",
+      company: "Various Projects",
+      period: "2023 - 2025",
       description: [
-        "Developed and maintained multiple client-facing web applications",
-        "Collaborated with design team to implement responsive UI/UX",
-        "Optimized database queries improving application performance by 40%",
-        "Integrated third-party APIs and payment gateways",
-      ],
-    },
-    {
-      title: "Junior Developer",
-      company: "StartUp Ventures",
-      period: "2018 - 2019",
-      description: [
-        "Built responsive web interfaces using React and modern CSS",
-        "Participated in agile development sprints and daily standups",
-        "Fixed bugs and implemented new features based on user feedback",
-        "Learned best practices for clean code and version control",
+        "Developed 6+ major projects including e-commerce, task management, and CRM applications",
+        "Built ERP system modules for HR, Inventory, and Finance using React.js, Node.js, and PostgreSQL",
+        "Integrated multiple RESTful APIs including SMS, Google Sheets, OAuth/JWT authentication",
+        "Utilized Postman for comprehensive API testing, validation, and debugging",
+        "Implemented responsive UI designs with Bootstrap and modern CSS frameworks",
+        "Managed databases with PostgreSQL, MySQL, and MongoDB, including schema design and optimization",
       ],
     },
   ];

@@ -21,13 +21,16 @@ const About = () => {
                 <div className="flex-1 space-y-4">
                   <h2 className="text-2xl font-semibold">Who I Am</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    I'm a passionate Full Stack Developer with expertise in building modern web applications. 
-                    With several years of experience in the tech industry, I specialize in creating scalable, 
-                    efficient, and user-friendly solutions.
+                    I'm a detail-oriented Full Stack Developer with 2+ years of experience in building scalable 
+                    web and mobile applications. I specialize in Flutter for mobile development and Node.js for 
+                    backend services. Currently working at Baap Company since August 2025, I have hands-on 
+                    contribution to 2 client projects and 4 internal projects, managing both modules and 
+                    end-to-end development.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    My journey in technology started with a curiosity about how things work, which evolved 
-                    into a career dedicated to solving complex problems and creating meaningful digital experiences.
+                    I'm skilled in writing clean, maintainable code, API integrations, and Agile collaboration. 
+                    My passion lies in problem-solving, continuous learning, and delivering high-quality solutions 
+                    that make a real impact.
                   </p>
                 </div>
               </div>
@@ -40,19 +43,19 @@ const About = () => {
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <p className="text-sm text-muted-foreground">Full Name</p>
-                  <p className="font-medium">Your Full Name</p>
+                  <p className="font-medium">Uddhav Badri Dabhade</p>
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-medium">your.email@example.com</p>
+                  <p className="font-medium">dabhadeuddhav4@gmail.com</p>
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-medium">Your City, Country</p>
+                  <p className="font-medium">Chhatrapati Sambhajinagar, Maharashtra 431001</p>
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Phone</p>
-                  <p className="font-medium">+1 234 567 8900</p>
+                  <p className="font-medium">+91 8767589400</p>
                 </div>
               </div>
             </CardContent>
@@ -63,16 +66,22 @@ const About = () => {
               <h2 className="text-2xl font-semibold mb-4">What I Do</h2>
               <div className="space-y-3">
                 <p className="text-muted-foreground leading-relaxed">
-                  ✨ Design and develop responsive web applications
+                  📱 Design and develop cross-platform mobile applications using Flutter
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  🚀 Build scalable backend systems and APIs
+                  🚀 Build scalable backend systems and RESTful APIs with Node.js and Express
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  💡 Collaborate with teams to deliver high-quality solutions
+                  💡 Integrate third-party APIs, authentication systems (JWT/OAuth), and payment gateways
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  📱 Create seamless user experiences across devices
+                  🎨 Create responsive web interfaces with React.js and modern CSS frameworks
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  🔧 Work with databases (PostgreSQL, MySQL, MongoDB) and Firebase services
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  🤝 Collaborate with teams using Agile methodologies and Git version control
                 </p>
               </div>
             </CardContent>
@@ -83,12 +92,29 @@ const About = () => {
               <h2 className="text-2xl font-semibold mb-4">Education</h2>
               <div className="space-y-4">
                 <div>
-                  <h3 className="font-semibold">Bachelor's Degree in Computer Science</h3>
-                  <p className="text-sm text-muted-foreground">University Name • 2015 - 2019</p>
+                  <h3 className="font-semibold">Bachelor of Computer Application</h3>
+                  <p className="text-sm text-muted-foreground">University of Mysore (Online) • Expected: November 2025</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold">Relevant Certifications</h3>
-                  <p className="text-sm text-muted-foreground">Various technical certifications and courses</p>
+                  <h3 className="font-semibold">Shiv Chhatrapati Vidyalaya College</h3>
+                  <p className="text-sm text-muted-foreground">2020 - 2022</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardContent className="pt-6">
+              <h2 className="text-2xl font-semibold mb-4">Languages</h2>
+              <div className="flex flex-wrap gap-3">
+                <div className="px-4 py-2 bg-secondary rounded-lg">
+                  <p className="font-medium">English</p>
+                </div>
+                <div className="px-4 py-2 bg-secondary rounded-lg">
+                  <p className="font-medium">Hindi</p>
+                </div>
+                <div className="px-4 py-2 bg-secondary rounded-lg">
+                  <p className="font-medium">Marathi</p>
                 </div>
               </div>
             </CardContent>

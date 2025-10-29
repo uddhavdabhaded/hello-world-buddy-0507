@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-center md:text-left">
             <p className="text-muted-foreground">
-              © {new Date().getFullYear()} Your Name. All rights reserved.
+              © {new Date().getFullYear()} Uddhav Dabhade. All rights reserved.
             </p>
           </div>
           
@@ -37,7 +37,7 @@ const Footer = () => {
               <Twitter className="h-5 w-5" />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:dabhadeuddhav4@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Mail className="h-5 w-5" />

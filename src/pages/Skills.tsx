@@ -5,24 +5,28 @@ import { Badge } from "@/components/ui/badge";
 const Skills = () => {
   const skillCategories = [
     {
+      title: "Mobile App Development",
+      skills: ["Flutter", "Dart", "REST API Integration", "Firebase", "Android/iOS Deployment", "State Management (GetX/Bloc)"],
+    },
+    {
       title: "Frontend Development",
-      skills: ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Next.js"],
+      skills: ["React.js", "HTML5", "CSS3", "JavaScript (ES6+)", "Responsive Design", "Bootstrap"],
     },
     {
       title: "Backend Development",
-      skills: ["Node.js", "Express", "Python", "Django", "REST APIs", "GraphQL"],
+      skills: ["Node.js", "Express.js", "RESTful APIs", "Authentication (JWT/OAuth)", "API Integration"],
     },
     {
-      title: "Database",
-      skills: ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Supabase"],
+      title: "Database Management",
+      skills: ["PostgreSQL", "MySQL", "MongoDB", "Schema Design", "SQL Queries", "Relationships"],
+    },
+    {
+      title: "Programming Languages",
+      skills: ["JavaScript", "Dart", "SQL", "Core Java"],
     },
     {
       title: "Tools & Technologies",
-      skills: ["Git", "Docker", "AWS", "CI/CD", "Jest", "Webpack", "Vite"],
-    },
-    {
-      title: "Soft Skills",
-      skills: ["Problem Solving", "Team Collaboration", "Communication", "Project Management", "Agile/Scrum"],
+      skills: ["Git", "GitHub", "GitLab", "VS Code", "Postman", "API Testing"],
     },
   ];
 
@@ -61,7 +65,7 @@ const Skills = () => {
             <CardContent className="space-y-4">
               <div>
                 <div className="flex justify-between mb-2">
-                  <span className="font-medium">Frontend Development</span>
+                  <span className="font-medium">Mobile App Development (Flutter)</span>
                   <span className="text-muted-foreground">90%</span>
                 </div>
                 <div className="h-2 bg-secondary rounded-full overflow-hidden">
@@ -70,7 +74,7 @@ const Skills = () => {
               </div>
               <div>
                 <div className="flex justify-between mb-2">
-                  <span className="font-medium">Backend Development</span>
+                  <span className="font-medium">Backend Development (Node.js)</span>
                   <span className="text-muted-foreground">85%</span>
                 </div>
                 <div className="h-2 bg-secondary rounded-full overflow-hidden">
@@ -79,7 +83,7 @@ const Skills = () => {
               </div>
               <div>
                 <div className="flex justify-between mb-2">
-                  <span className="font-medium">Database Management</span>
+                  <span className="font-medium">Frontend Development (React.js)</span>
                   <span className="text-muted-foreground">80%</span>
                 </div>
                 <div className="h-2 bg-secondary rounded-full overflow-hidden">
@@ -88,11 +92,20 @@ const Skills = () => {
               </div>
               <div>
                 <div className="flex justify-between mb-2">
-                  <span className="font-medium">DevOps & Deployment</span>
-                  <span className="text-muted-foreground">75%</span>
+                  <span className="font-medium">Database Management</span>
+                  <span className="text-muted-foreground">85%</span>
                 </div>
                 <div className="h-2 bg-secondary rounded-full overflow-hidden">
-                  <div className="h-full bg-primary" style={{ width: "75%" }}></div>
+                  <div className="h-full bg-primary" style={{ width: "85%" }}></div>
+                </div>
+              </div>
+              <div>
+                <div className="flex justify-between mb-2">
+                  <span className="font-medium">API Integration & Testing</span>
+                  <span className="text-muted-foreground">88%</span>
+                </div>
+                <div className="h-2 bg-secondary rounded-full overflow-hidden">
+                  <div className="h-full bg-primary" style={{ width: "88%" }}></div>
                 </div>
               </div>
             </CardContent>

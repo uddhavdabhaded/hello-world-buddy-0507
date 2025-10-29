@@ -43,21 +43,21 @@ const Contact = () => {
               <CardContent className="pt-6 text-center">
                 <Mail className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="font-semibold mb-2">Email</h3>
-                <p className="text-sm text-muted-foreground">your.email@example.com</p>
+                <p className="text-sm text-muted-foreground">dabhadeuddhav4@gmail.com</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="pt-6 text-center">
                 <Phone className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="font-semibold mb-2">Phone</h3>
-                <p className="text-sm text-muted-foreground">+1 234 567 8900</p>
+                <p className="text-sm text-muted-foreground">+91 8767589400</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="pt-6 text-center">
                 <MapPin className="h-12 w-12 text-primary mx-auto mb-4" />
                 <h3 className="font-semibold mb-2">Location</h3>
-                <p className="text-sm text-muted-foreground">Your City, Country</p>
+                <p className="text-sm text-muted-foreground">Chhatrapati Sambhajinagar, Maharashtra 431001</p>
               </CardContent>
             </Card>
           </div>

@@ -26,12 +26,13 @@ const Resume = () => {
                 <h2 className="text-2xl font-bold">Professional Summary</h2>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                Experienced Full Stack Developer with 5+ years of expertise in designing, developing, 
-                and deploying scalable web applications. Proficient in modern JavaScript frameworks, 
-                backend technologies, and cloud services. Strong problem-solving abilities with a 
-                passion for creating efficient, user-friendly solutions. Proven track record of 
-                delivering high-quality projects on time while collaborating effectively with 
-                cross-functional teams.
+                Detail-oriented Full Stack Developer with 2+ years of experience in building scalable 
+                web and mobile applications. Proficient in Flutter for mobile and Node.js for backend, 
+                with hands-on contribution to 2 client projects and 4 internal projects, managing both 
+                modules and end-to-end development. Currently working at BAAP Company (since Aug 2025) 
+                with focus on scalability and teamwork. Skilled in writing clean, maintainable code, 
+                API integrations, and Agile collaboration. Passionate about problem-solving, continuous 
+                learning and delivering high-quality solutions.
               </p>
             </CardContent>
           </Card>
@@ -42,9 +43,13 @@ const Resume = () => {
                 <h3 className="text-xl font-semibold mb-4">Education</h3>
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-medium">Bachelor's in Computer Science</h4>
-                    <p className="text-sm text-muted-foreground">University Name</p>
-                    <p className="text-sm text-muted-foreground">2015 - 2019 • GPA: 3.8/4.0</p>
+                    <h4 className="font-medium">Bachelor of Computer Application</h4>
+                    <p className="text-sm text-muted-foreground">University of Mysore (Online)</p>
+                    <p className="text-sm text-muted-foreground">Expected: November 2025</p>
+                  </div>
+                  <div>
+                    <h4 className="font-medium">Shiv Chhatrapati Vidyalaya College</h4>
+                    <p className="text-sm text-muted-foreground">2020 - 2022</p>
                   </div>
                 </div>
               </CardContent>
@@ -52,12 +57,11 @@ const Resume = () => {
 
             <Card>
               <CardContent className="pt-6">
-                <h3 className="text-xl font-semibold mb-4">Certifications</h3>
+                <h3 className="text-xl font-semibold mb-4">Languages</h3>
                 <div className="space-y-2">
-                  <p className="text-sm">• AWS Certified Developer</p>
-                  <p className="text-sm">• React Advanced Certification</p>
-                  <p className="text-sm">• Node.js Professional</p>
-                  <p className="text-sm">• Scrum Master Certified</p>
+                  <p className="text-sm">• English - Professional proficiency</p>
+                  <p className="text-sm">• Hindi - Native proficiency</p>
+                  <p className="text-sm">• Marathi - Native proficiency</p>
                 </div>
               </CardContent>
             </Card>
@@ -70,19 +74,21 @@ const Resume = () => {
                 <div>
                   <h4 className="font-medium mb-2">Technical Skills</h4>
                   <ul className="space-y-1 text-sm text-muted-foreground">
-                    <li>• Frontend: React, TypeScript, Next.js</li>
-                    <li>• Backend: Node.js, Python, Express</li>
-                    <li>• Database: PostgreSQL, MongoDB</li>
-                    <li>• DevOps: Docker, AWS, CI/CD</li>
+                    <li>• Mobile: Flutter, Dart, State Management</li>
+                    <li>• Frontend: React.js, HTML5, CSS3, JavaScript</li>
+                    <li>• Backend: Node.js, Express.js, RESTful APIs</li>
+                    <li>• Database: PostgreSQL, MySQL, MongoDB</li>
+                    <li>• Tools: Git, GitHub, VS Code, Postman</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-medium mb-2">Soft Skills</h4>
+                  <h4 className="font-medium mb-2">Key Strengths</h4>
                   <ul className="space-y-1 text-sm text-muted-foreground">
-                    <li>• Team Leadership & Mentoring</li>
+                    <li>• API Integration & Testing</li>
                     <li>• Agile/Scrum Methodologies</li>
-                    <li>• Problem Solving & Analysis</li>
-                    <li>• Effective Communication</li>
+                    <li>• Problem Solving & Debugging</li>
+                    <li>• Cross-platform Development</li>
+                    <li>• Clean Code & Best Practices</li>
                   </ul>
                 </div>
               </div>
@@ -94,21 +100,23 @@ const Resume = () => {
               <h3 className="text-xl font-semibold mb-4">Professional Experience</h3>
               <div className="space-y-6">
                 <div>
-                  <h4 className="font-medium">Senior Full Stack Developer</h4>
-                  <p className="text-sm text-muted-foreground mb-2">Tech Company Inc. • 2021 - Present</p>
+                  <h4 className="font-medium">Flutter Developer</h4>
+                  <p className="text-sm text-muted-foreground mb-2">BAAP Company • Aug 2025 - Present</p>
                   <ul className="space-y-1 text-sm text-muted-foreground ml-4">
-                    <li>• Led development of scalable applications</li>
-                    <li>• Mentored team of 5 junior developers</li>
-                    <li>• Improved system performance by 40%</li>
+                    <li>• Contributing to 2 client projects and 4 internal projects</li>
+                    <li>• Building scalable mobile applications using Flutter</li>
+                    <li>• Implementing API integrations and state management</li>
+                    <li>• Collaborating with teams using Agile methodologies</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-medium">Full Stack Developer</h4>
-                  <p className="text-sm text-muted-foreground mb-2">Digital Solutions Ltd. • 2019 - 2021</p>
+                  <h4 className="font-medium">Notable Projects</h4>
+                  <p className="text-sm text-muted-foreground mb-2">2023 - 2025</p>
                   <ul className="space-y-1 text-sm text-muted-foreground ml-4">
-                    <li>• Developed client-facing web applications</li>
-                    <li>• Integrated third-party APIs and services</li>
-                    <li>• Optimized database performance</li>
+                    <li>• Developed 6+ applications including e-commerce, CRM, and ERP systems</li>
+                    <li>• Built ERP modules with React.js, Node.js, and PostgreSQL</li>
+                    <li>• Integrated RESTful APIs with JWT/OAuth authentication</li>
+                    <li>• Extensive API testing and validation using Postman</li>
                   </ul>
                 </div>
               </div>
